@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Screens/Paint%20Visualizer%20SaaS%20Banner.png" alt="Kashida Paint Visualizer" width="100%">
+<img src="Screens/Banner_1.png" alt="Kashida Paint Visualizer — Main Banner" width="100%">
 
 # Kashida Paint Visualizer
 
@@ -36,6 +36,10 @@ Kashida Paint Visualizer helps visitors explore paint colors in room and exterio
 | **Color experimentation** | Compare color options and explore different combinations. |
 | **Interior and exterior previews** | Visualize colors in room interiors and on house exteriors. |
 | **Share and print tools** | See the available preview and sharing workflow in the live demo. |
+
+## Product Preview
+
+<img src="Screens/Banner_2.png" alt="Kashida Paint Visualizer — Additional Banner" width="100%">
 
 ## Preview the Interface
 
