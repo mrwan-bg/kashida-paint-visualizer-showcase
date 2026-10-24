@@ -9,9 +9,11 @@
 An interactive, commercial WordPress plugin for previewing paint colors on interior rooms and exterior house surfaces.
 
 <p>
-  <a href="https://kashida.ly/ar/wp-plugins-ar/paint-visualizer-ar/kashida-paint-visualizer-ar/"><strong>▶ Try the Live Demo</strong></a>
+  <a href="https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/"><strong>▶ Try the Live Demo</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://kashida.ly/ar/wp-plugins-ar/paint-visualizer-ar/"><strong>Request a Quote</strong></a>
+  <a href="https://kashida.ly/wp-plugins/paint-visualizer/"><strong>Plugin Details</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://kashida.ly/contact/"><strong>Request a Quote</strong></a>
 </p>
 
 <img src="Screens/Kashida%20Paint%20Visualizer%20Icon.png" alt="Kashida Paint Visualizer icon" width="110">
@@ -67,18 +69,20 @@ Kashida Paint Visualizer helps visitors explore paint colors in room and exterio
 
 The interactive demo is hosted on the Kashida website. No plugin download is required to explore the demo.
 
-**[Open the Live Demo →](https://kashida.ly/ar/wp-plugins-ar/paint-visualizer-ar/kashida-paint-visualizer-ar/)**
+**[Open the Live Demo →](https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/)**
 
 ## Commercial Product
 
 Kashida Paint Visualizer is a **paid commercial plugin**. Pricing and licensing information are provided upon request.
 
-**[View Plugin Details and Request a Quote →](https://kashida.ly/ar/wp-plugins-ar/paint-visualizer-ar/)**
+- **[View Plugin Details →](https://kashida.ly/wp-plugins/paint-visualizer/)**
+- **[Request a Quote →](https://kashida.ly/contact/)**
 
 ## Links
 
-- **Plugin page:** https://kashida.ly/ar/wp-plugins-ar/paint-visualizer-ar/
-- **Live demo:** https://kashida.ly/ar/wp-plugins-ar/paint-visualizer-ar/kashida-paint-visualizer-ar/
+- **Plugin page:** https://kashida.ly/wp-plugins/paint-visualizer/
+- **Live demo:** https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/
+- **Contact / Request a quote:** https://kashida.ly/contact/
 - **Kashida Media Services:** https://kashida.ly/
 
 ---
