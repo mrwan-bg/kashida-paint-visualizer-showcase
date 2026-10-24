@@ -9,11 +9,11 @@
 An interactive, commercial WordPress plugin for previewing paint colors on interior rooms and exterior house surfaces.
 
 <p>
-  <a href="https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/"><strong>▶ Try the Live Demo</strong></a>
+  <a href="https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/" target="_blank" rel="noopener noreferrer"><strong>▶ Try the Live Demo</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://kashida.ly/wp-plugins/paint-visualizer/"><strong>Plugin Details</strong></a>
+  <a href="https://kashida.ly/wp-plugins/paint-visualizer/" target="_blank" rel="noopener noreferrer"><strong>Plugin Details</strong></a>
   &nbsp; · &nbsp;
-  <a href="https://kashida.ly/contact/"><strong>Request a Quote</strong></a>
+  <a href="https://kashida.ly/contact/" target="_blank" rel="noopener noreferrer"><strong>Request a Quote</strong></a>
 </p>
 
 <img src="Screens/Kashida%20Paint%20Visualizer%20Icon.png" alt="Kashida Paint Visualizer icon" width="110">
@@ -69,21 +69,21 @@ Kashida Paint Visualizer helps visitors explore paint colors in room and exterio
 
 The interactive demo is hosted on the Kashida website. No plugin download is required to explore the demo.
 
-**[Open the Live Demo →](https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/)**
+**<a href="https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/" target="_blank" rel="noopener noreferrer">Open the Live Demo →</a>**
 
 ## Commercial Product
 
 Kashida Paint Visualizer is a **paid commercial plugin**. Pricing and licensing information are provided upon request.
 
-- **[View Plugin Details →](https://kashida.ly/wp-plugins/paint-visualizer/)**
-- **[Request a Quote →](https://kashida.ly/contact/)**
+- **<a href="https://kashida.ly/wp-plugins/paint-visualizer/" target="_blank" rel="noopener noreferrer">View Plugin Details →</a>**
+- **<a href="https://kashida.ly/contact/" target="_blank" rel="noopener noreferrer">Request a Quote →</a>**
 
 ## Links
 
-- **Plugin page:** https://kashida.ly/wp-plugins/paint-visualizer/
-- **Live demo:** https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/
-- **Contact / Request a quote:** https://kashida.ly/contact/
-- **Kashida Media Services:** https://kashida.ly/
+- **Plugin page:** <a href="https://kashida.ly/wp-plugins/paint-visualizer/" target="_blank" rel="noopener noreferrer">kashida.ly/wp-plugins/paint-visualizer/</a>
+- **Live demo:** <a href="https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/" target="_blank" rel="noopener noreferrer">Open demo</a>
+- **Contact / Request a quote:** <a href="https://kashida.ly/contact/" target="_blank" rel="noopener noreferrer">kashida.ly/contact/</a>
+- **Kashida Media Services:** <a href="https://kashida.ly/" target="_blank" rel="noopener noreferrer">kashida.ly</a>
 
 ---
 
