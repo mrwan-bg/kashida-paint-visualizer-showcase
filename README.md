@@ -117,9 +117,7 @@ This repository does not contain an installable plugin package. After obtaining 
 3. Create or edit the page where you want the visualizer to appear.
 4. Add the following shortcode:
 
-```text
-[kashida_paint_visualizer]
-```
+**Shortcode**
 
 5. Publish or update the page.
 
@@ -274,9 +272,7 @@ Product showcase only · No source code or downloadable plugin package is provid
 3. أنشئ صفحة جديدة أو افتح الصفحة التي تريد عرض المحاكي فيها.
 4. أضف الكود المختصر التالي:
 
-```text
-[kashida_paint_visualizer]
-```
+**Shortcode**
 
 5. انشر الصفحة أو حدّثها لعرض المحاكي.
 
