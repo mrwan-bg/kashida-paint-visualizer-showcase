@@ -99,7 +99,7 @@ Kashida Paint Visualizer is designed for businesses and professionals working in
 - **Tested up to:** WordPress 7.1
 - **Requires PHP:** 8.0 or later
 - **Server requirement:** PHP GD extension enabled
-- **Shortcode:** `[kashida_paint_visualizer]`
+- **Shortcode**
 - **Scenes:** 5
 - **Preview formats:** WebP where supported, with PNG fallback
 - **Export format:** PNG
@@ -256,7 +256,7 @@ Product showcase only · No source code or downloadable plugin package is provid
 - **آخر إصدار تم اختباره:** WordPress 7.1
 - **متطلبات PHP:** الإصدار 8.0 أو أحدث
 - **متطلبات الخادم:** تفعيل امتداد PHP GD
-- **الكود المختصر:** `[kashida_paint_visualizer]`
+- **كود الاختصار**
 - **عدد المشاهد:** 5
 - **صيغ المعاينة:** WebP عند توفر الدعم، مع الرجوع إلى PNG
 - **صيغة التصدير:** PNG
