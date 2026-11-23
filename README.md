@@ -300,19 +300,19 @@ Product showcase only · No source code or downloadable plugin package is provid
 
 يمكنك تجربة النسخة التفاعلية مباشرة عبر موقع كشيدة، دون الحاجة إلى تحميل الإضافة.
 
-**[افتح العرض التجريبي](https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/)**
+**[افتح العرض التجريبي](https://kashida.ly/ar/wp-plugins-ar/paint-visualizer-ar/kashida-paint-visualizer-ar/)**
 
 ## منتج تجاري
 
 يتوفر محاكي الدهانات من كشيدة كمنتج تجاري. يمكن التواصل مع كشيدة للخدمات الإعلامية لمعرفة الأسعار وتفاصيل الترخيص ومتطلبات التركيب والتخصيص.
 
-- **[عرض تفاصيل الإضافة](https://kashida.ly/wp-plugins/paint-visualizer/)**
+- **[عرض تفاصيل الإضافة](https://kashida.ly/ar/wp-plugins-ar/paint-visualizer-ar/)**
 - **[طلب عرض سعر](https://kashida.ly/contact/)**
 
 ## الروابط
 
-- **صفحة الإضافة:** [kashida.ly/wp-plugins/paint-visualizer/](https://kashida.ly/wp-plugins/paint-visualizer/)
-- **العرض التجريبي:** [تجربة المحاكي](https://kashida.ly/wp-plugins/paint-visualizer/kashida-paint-visualizer/)
+- **صفحة الإضافة:** [kashida.ly/wp-plugins/paint-visualizer/](https://kashida.ly/ar/wp-plugins-ar/paint-visualizer-ar/)
+- **العرض التجريبي:** [تجربة المحاكي](https://kashida.ly/ar/wp-plugins-ar/paint-visualizer-ar/kashida-paint-visualizer-ar/)
 - **التواصل وطلب عرض السعر:** [kashida.ly/contact/](https://kashida.ly/contact/)
 - **كشيدة للخدمات الإعلامية:** [kashida.ly](https://kashida.ly/)
 
