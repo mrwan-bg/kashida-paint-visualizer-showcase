@@ -28,7 +28,7 @@ An advanced interactive WordPress paint visualizer that helps visitors preview p
 
 Kashida Paint Visualizer is an advanced, interactive WordPress plugin that allows website visitors to preview paint colors on interior rooms and exterior house facades. With precise paintable regions and flexible color selection tools, users can experiment with different combinations and visualize their choices directly on your website.
 
-The visualizer includes five scenes, an interactive color palette, a draggable before-and-after divider directly on the image, undo and redo controls, and high-quality image export and sharing. It also inherits the active WordPress theme's font for a more consistent appearance. Its responsive workspace is designed for desktop, tablet, and mobile devices.
+The visualizer includes five scenes, an interactive color palette, a draggable before-and-after divider directly on the image, undo and redo controls, and high-quality image export and sharing. Version 1.4.1 also improves the mobile experience and refines the user interface for clearer, more convenient interaction across screen sizes. It inherits the active WordPress theme's font for a more consistent appearance.
 
 **This is a product showcase repository.** It contains product information and promotional images only. It does not include the plugin source code or an installation package.
 
@@ -44,6 +44,8 @@ The visualizer includes five scenes, an interactive color palette, a draggable b
 | **Undo, redo, and reset** | Review color changes, restore previous steps, and reset the scene. |
 | **High-quality image export** | Download completed visualizations as PNG images. |
 | **Native image sharing** | Share finished designs using sharing options supported by the device and browser. |
+| **Improved mobile experience** | Refined the mobile layout and interaction experience for smaller screens. |
+| **UI refinements** | Improved interface presentation and usability for a clearer, more consistent workflow. |
 | **Responsive workspace** | Use the visualizer on desktop, tablet, and mobile, with an optional full-width workspace. |
 | **WordPress theme integration** | Automatically inherit the active WordPress theme's font, maintaining a consistent typographic appearance. |
 | **Server-side rendering** | Process paint effects and region hit-testing using PHP/GD, keeping mask assets and rendering logic on the server. |
@@ -181,7 +183,7 @@ Product showcase only · No source code or downloadable plugin package is provid
 
 محاكي الدهانات من كشيدة هو إضافة تفاعلية متقدمة لمنصة WordPress، تتيح لزوار المواقع معاينة ألوان الدهانات على المساحات الداخلية والواجهات الخارجية، وتجربة تنسيقات لونية مختلفة قبل اتخاذ قرار الاختيار.
 
-يوفر المحاكي خمسة مشاهد متنوعة، ومناطق مستقلة لتطبيق الألوان، وأدوات مرنة لاختيار الدرجات اللونية، بالإضافة إلى المقارنة بين الصورة الأصلية والنتيجة بعد الطلاء، وإمكانية تحميل التصميمات النهائية ومشاركتها. كما تتميز واجهته بالاستجابة لمختلف أحجام الشاشات.
+يوفر المحاكي خمسة مشاهد متنوعة، ومناطق مستقلة لتطبيق الألوان، وأدوات مرنة لاختيار الدرجات اللونية، بالإضافة إلى المقارنة بين الصورة الأصلية والنتيجة بعد الطلاء، وإمكانية تحميل التصميمات النهائية ومشاركتها. ويقدم الإصدار 1.4.1 تحسينات على تجربة الاستخدام عبر الهواتف، وتطويراً لواجهة المستخدم لتكون أوضح وأسهل في التفاعل على مختلف أحجام الشاشات.
 
 **هذا المستودع مخصص للتعريف بالمنتج وعرضه تسويقياً فقط.** يحتوي على معلومات الإضافة والصور الترويجية، ولا يتضمن الشيفرة المصدرية أو ملف تثبيت الإضافة.
 
@@ -197,6 +199,8 @@ Product showcase only · No source code or downloadable plugin package is provid
 | **التراجع والإعادة وإعادة الضبط** | مراجعة التعديلات والعودة إلى الخطوات السابقة أو إعادة ضبط المشهد. |
 | **تحميل الصور بجودة عالية** | تصدير التصميمات النهائية بصيغة PNG. |
 | **مشاركة الصور** | مشاركة التصميمات باستخدام خيارات المشاركة المدعومة في الأجهزة والمتصفحات. |
+| **تحسين تجربة الهاتف** | تطوير عرض المحاكي وطريقة التفاعل معه لتوفير تجربة استخدام أفضل على الشاشات الصغيرة. |
+| **تحسين واجهة المستخدم** | تحسين المظهر العام وتنظيم الواجهة وسهولة الاستخدام لتجربة أكثر وضوحاً واتساقاً. |
 | **مساحة عمل متجاوبة** | واجهة مناسبة للحواسيب والأجهزة اللوحية والهواتف، مع خيار مساحة العمل بعرض كامل. |
 | **التكامل مع قوالب WordPress** | اعتماد خط القالب النشط تلقائياً للحفاظ على تناسق المظهر الطباعي مع الموقع. |
 | **المعالجة على الخادم** | تنفيذ تأثيرات الطلاء وتحديد المناطق باستخدام PHP/GD، مع إبقاء أقنعة الطلاء ومنطق المعالجة على الخادم. |
