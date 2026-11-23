@@ -18,7 +18,7 @@ An advanced interactive WordPress paint visualizer that helps visitors preview p
 
 <img src="Screens/Kashida%20Paint%20Visualizer%20Icon.png" alt="Kashida Paint Visualizer icon" width="110">
 
-**Version 1.4.1 · Developed by Kashida Media Services**
+**Version 1.5.0 · Developed by Kashida Media Services**
 
 </div>
 
@@ -28,7 +28,7 @@ An advanced interactive WordPress paint visualizer that helps visitors preview p
 
 Kashida Paint Visualizer is an advanced, interactive WordPress plugin that allows website visitors to preview paint colors on interior rooms and exterior house facades. With precise paintable regions and flexible color selection tools, users can experiment with different combinations and visualize their choices directly on your website.
 
-The visualizer includes five scenes, an interactive color palette, a draggable before-and-after divider directly on the image, undo and redo controls, and high-quality image export and sharing. Version 1.4.1 also improves the mobile experience and refines the user interface for clearer, more convenient interaction across screen sizes. It inherits the active WordPress theme's font for a more consistent appearance.
+The visualizer includes five scenes, an interactive color palette, optional integration with Kashida Color Library, a draggable before-and-after divider directly on the image, undo and redo controls, and high-quality image export and sharing. Version 1.5.0 adds a Company Catalog color source that reads published, enabled color groups from Kashida Color Library 2.7.0, with catalog search and pagination. The built-in visualizer palette remains available independently whenever the catalog plugin is unavailable or the catalog cannot be loaded. The visualizer also benefits from the mobile, interface, and theme-font improvements introduced in version 1.4.1.
 
 **This is a product showcase repository.** It contains product information and promotional images only. It does not include the plugin source code or an installation package.
 
@@ -40,6 +40,9 @@ The visualizer includes five scenes, an interactive color palette, a draggable b
 | **Independent paintable regions** | Apply different colors to designated walls, ceilings, kitchen cabinets, and other paintable areas independently. |
 | **Advanced color selection** | Choose colors freely or enter exact HEX, RGB, and CMYK values. |
 | **Interactive color palette** | Search colors, filter by color families, save favorites, and revisit recently used colors. |
+| **Company Catalog integration** | Optionally connect to Kashida Color Library 2.7.0 and select colors from published, enabled company color groups. |
+| **Catalog search and pagination** | Browse large company color groups with search by color name, code, or HEX value and paginated results. |
+| **Independent built-in palette** | Keep using the visualizer's built-in colors when Kashida Color Library is not installed, is inactive, has no available groups, or its API is temporarily unavailable. |
 | **Before & After comparison** | Compare the original scene with the painted result using a draggable divider placed directly on the image, without a separate percentage control. |
 | **Undo, redo, and reset** | Review color changes, restore previous steps, and reset the scene. |
 | **High-quality image export** | Download completed visualizations as PNG images. |
@@ -50,7 +53,7 @@ The visualizer includes five scenes, an interactive color palette, a draggable b
 | **WordPress theme integration** | Automatically inherit the active WordPress theme's font, maintaining a consistent typographic appearance. |
 | **Server-side rendering** | Process paint effects and region hit-testing using PHP/GD, keeping mask assets and rendering logic on the server. |
 | **Optimized performance** | Benefit from optimized pixel processing, cached region data, and WebP previews where supported, with PNG fallback. |
-| **Privacy-conscious workflow** | User designs are processed without being uploaded to or stored in the WordPress database. |
+| **Privacy-conscious workflow** | Customer designs and color selections are not saved as server-side user designs or stored in the WordPress database. Catalog integration reads public color catalog data only. |
 | **Multilingual support** | Arabic translation is included, with a POT template for additional languages. |
 
 ## Product Preview
@@ -93,7 +96,7 @@ Kashida Paint Visualizer is designed for businesses and professionals working in
 ## Plugin Details
 
 - **Plugin:** Kashida Paint Visualizer
-- **Version:** 1.4.1
+- **Version:** 1.5.0
 - **Developer:** Kashida Media Services
 - **Author:** Mrwan elGobee
 - **Platform:** WordPress
@@ -103,6 +106,7 @@ Kashida Paint Visualizer is designed for businesses and professionals working in
 - **Server requirement:** PHP GD extension enabled
 - **Shortcode**
 - **Scenes:** 5
+- **Optional catalog integration:** Kashida Color Library 2.7.0 or later
 - **Preview formats:** WebP where supported, with PNG fallback
 - **Export format:** PNG
 - **Languages:** Arabic and English
@@ -121,13 +125,13 @@ This repository does not contain an installable plugin package. After obtaining 
 
 5. Publish or update the page.
 
-**Server requirement:** The PHP GD extension must be enabled on the hosting account for server-side image rendering and export.
+**Server requirement:** The PHP GD extension must be enabled on the hosting account for image rendering and export.
 
 ## Frequently Asked Questions
 
 ### Does the plugin store user designs?
 
-No. The plugin does not upload or store user designs in the WordPress database. It does not currently provide a database-based design-saving feature.
+No. Customer designs and customer-specific color selections are not stored as saved designs in the WordPress database. The Company Catalog connection reads published catalog data; it does not save a visitor's selected colors or design.
 
 ### Does the plugin support WebP?
 
@@ -140,6 +144,18 @@ Yes. Visitors can export finished visualizations as PNG images and use supported
 ### Can the plugin be translated?
 
 Yes. Arabic translation files are included. Additional languages can be added using the supplied POT template and standard PO/MO files.
+
+## Latest Release: 1.5.0
+
+- Added the optional **Company Catalog** color source through integration with Kashida Color Library 2.7.0.
+- Added catalog group selection, displaying published and enabled color groups.
+- Added catalog color search by name, commercial code, and HEX value.
+- Added pagination for large color groups; colors are fetched only after a visitor selects a group.
+- Reused the existing color-application workflow so catalog colors behave like built-in visualizer colors.
+- Preserved the built-in visualizer palette as an independent fallback when the Color Library is missing, inactive, empty, or temporarily unavailable.
+- Added localized loading, empty, error, and retry states for catalog browsing.
+- Kept the two plugins independent; the visualizer does not require the Color Library to operate.
+- Catalog integration reads only public color fields and does not store customer designs or color selections.
 
 ## Try It Online
 
