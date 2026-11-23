@@ -18,7 +18,7 @@ An advanced interactive WordPress paint visualizer that helps visitors preview p
 
 <img src="Screens/Kashida%20Paint%20Visualizer%20Icon.png" alt="Kashida Paint Visualizer icon" width="110">
 
-**Version 1.4.0 · Developed by Kashida Media Services**
+**Version 1.4.1 · Developed by Kashida Media Services**
 
 </div>
 
@@ -28,7 +28,7 @@ An advanced interactive WordPress paint visualizer that helps visitors preview p
 
 Kashida Paint Visualizer is an advanced, interactive WordPress plugin that allows website visitors to preview paint colors on interior rooms and exterior house facades. With precise paintable regions and flexible color selection tools, users can experiment with different combinations and visualize their choices directly on your website.
 
-The visualizer includes five scenes, an interactive color palette, before-and-after comparison, undo and redo controls, and high-quality image export and sharing. Its responsive workspace is designed for desktop, tablet, and mobile devices.
+The visualizer includes five scenes, an interactive color palette, a draggable before-and-after divider directly on the image, undo and redo controls, and high-quality image export and sharing. It also inherits the active WordPress theme's font for a more consistent appearance. Its responsive workspace is designed for desktop, tablet, and mobile devices.
 
 **This is a product showcase repository.** It contains product information and promotional images only. It does not include the plugin source code or an installation package.
 
@@ -40,12 +40,12 @@ The visualizer includes five scenes, an interactive color palette, before-and-af
 | **Independent paintable regions** | Apply different colors to designated walls, ceilings, kitchen cabinets, and other paintable areas independently. |
 | **Advanced color selection** | Choose colors freely or enter exact HEX, RGB, and CMYK values. |
 | **Interactive color palette** | Search colors, filter by color families, save favorites, and revisit recently used colors. |
-| **Before & After comparison** | Compare the original scene with the painted result using an adjustable interactive slider. |
+| **Before & After comparison** | Compare the original scene with the painted result using a draggable divider placed directly on the image, without a separate percentage control. |
 | **Undo, redo, and reset** | Review color changes, restore previous steps, and reset the scene. |
 | **High-quality image export** | Download completed visualizations as PNG images. |
 | **Native image sharing** | Share finished designs using sharing options supported by the device and browser. |
 | **Responsive workspace** | Use the visualizer on desktop, tablet, and mobile, with an optional full-width workspace. |
-| **WordPress theme integration** | Inherit typography and font sizing from the active WordPress theme. |
+| **WordPress theme integration** | Automatically inherit the active WordPress theme's font, maintaining a consistent typographic appearance. |
 | **Server-side rendering** | Process paint effects and region hit-testing using PHP/GD, keeping mask assets and rendering logic on the server. |
 | **Optimized performance** | Benefit from optimized pixel processing, cached region data, and WebP previews where supported, with PNG fallback. |
 | **Privacy-conscious workflow** | User designs are processed without being uploaded to or stored in the WordPress database. |
@@ -91,7 +91,7 @@ Kashida Paint Visualizer is designed for businesses and professionals working in
 ## Plugin Details
 
 - **Plugin:** Kashida Paint Visualizer
-- **Version:** 1.4.0
+- **Version:** 1.4.1
 - **Developer:** Kashida Media Services
 - **Author:** Mrwan elGobee
 - **Platform:** WordPress
@@ -115,9 +115,7 @@ This repository does not contain an installable plugin package. After obtaining 
 1. In WordPress, go to **Plugins → Add New Plugin → Upload Plugin**.
 2. Upload the plugin ZIP file and activate **Kashida Paint Visualizer**.
 3. Create or edit the page where you want the visualizer to appear.
-4. Add the following shortcode:
-
-**Shortcode**
+4. Add the shortcode supplied with your plugin package to the page.
 
 5. Publish or update the page.
 
@@ -195,12 +193,12 @@ Product showcase only · No source code or downloadable plugin package is provid
 | **مناطق طلاء مستقلة** | تطبيق ألوان مختلفة على الجدران والأسقف وخزائن المطبخ وغيرها من المناطق المحددة بشكل مستقل. |
 | **أداة متقدمة لاختيار الألوان** | اختيار الألوان بحرية أو إدخال قيمها بصيغ HEX وRGB وCMYK. |
 | **لوحة ألوان تفاعلية** | البحث عن الألوان وتصفيتها حسب العائلات اللونية، وحفظ المفضلة والرجوع إلى الألوان المستخدمة مؤخراً. |
-| **المقارنة قبل وبعد** | مقارنة المشهد الأصلي بالنتيجة بعد تطبيق الدهانات باستخدام شريط تفاعلي قابل للتحريك. |
+| **المقارنة قبل وبعد** | مقارنة المشهد الأصلي بالنتيجة بعد الطلاء باستخدام فاصل تفاعلي قابل للسحب مباشرة فوق الصورة، دون أداة منفصلة للتحكم في النسبة المئوية. |
 | **التراجع والإعادة وإعادة الضبط** | مراجعة التعديلات والعودة إلى الخطوات السابقة أو إعادة ضبط المشهد. |
 | **تحميل الصور بجودة عالية** | تصدير التصميمات النهائية بصيغة PNG. |
 | **مشاركة الصور** | مشاركة التصميمات باستخدام خيارات المشاركة المدعومة في الأجهزة والمتصفحات. |
 | **مساحة عمل متجاوبة** | واجهة مناسبة للحواسيب والأجهزة اللوحية والهواتف، مع خيار مساحة العمل بعرض كامل. |
-| **التكامل مع قوالب WordPress** | اعتماد الخطوط وأحجام النصوص تلقائياً من القالب النشط. |
+| **التكامل مع قوالب WordPress** | اعتماد خط القالب النشط تلقائياً للحفاظ على تناسق المظهر الطباعي مع الموقع. |
 | **المعالجة على الخادم** | تنفيذ تأثيرات الطلاء وتحديد المناطق باستخدام PHP/GD، مع إبقاء أقنعة الطلاء ومنطق المعالجة على الخادم. |
 | **أداء محسّن** | تحسين معالجة البكسلات والتخزين المؤقت لبيانات المناطق، مع استخدام WebP للمعاينة عند توفر الدعم والرجوع إلى PNG عند الحاجة. |
 | **خصوصية التصميمات** | معالجة تصميمات المستخدمين دون رفعها أو تخزينها في قاعدة بيانات WordPress. |
@@ -246,7 +244,7 @@ Product showcase only · No source code or downloadable plugin package is provid
 ## معلومات الإضافة
 
 - **اسم الإضافة:** Kashida Paint Visualizer – محاكي الدهانات من كشيدة
-- **الإصدار:** 1.4.0
+- **الإصدار:** 1.4.1
 - **المطور:** كشيدة للخدمات الإعلامية (Kashida Media Services)
 - **المؤلف:** Mrwan elGobee
 - **المنصة:** WordPress
@@ -270,9 +268,7 @@ Product showcase only · No source code or downloadable plugin package is provid
 1. من لوحة تحكم WordPress انتقل إلى **إضافات ← أضف إضافة جديدة ← رفع إضافة**.
 2. ارفع ملف ZIP الخاص بالإضافة ثم قم بتثبيت الإضافة وتفعيلها.
 3. أنشئ صفحة جديدة أو افتح الصفحة التي تريد عرض المحاكي فيها.
-4. أضف كود الاختصار التالي:
-
-**كود الاختصار**
+4. أضف كود الاختصار المرفق مع حزمة الإضافة إلى الصفحة.
 
 5. انشر الصفحة أو حدّثها لعرض المحاكي.
 
